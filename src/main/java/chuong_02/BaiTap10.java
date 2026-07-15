@@ -102,10 +102,15 @@ public class BaiTap10 {
     public static int demChan(int[] a)
     {
         int dem=0;        
-        for(int i=0;i<a.length;i++)
+//        for(int i=0;i<a.length;i++)
+//        {
+//           if(a[i]%2==0)
+//               dem++;
+//        }
+        for(int x:a)
         {
-           if(a[i]%2==0)
-               dem++;
+            if(x%2==0)
+                dem++;
         }
         return dem;
     }
